@@ -59,7 +59,7 @@ export function StandardFAQ({
         <StaggerContainer className="w-full space-y-4">
           {items.map((faq, index) => (
             <motion.div variants={fadeUpVariant} key={index}>
-              <Accordion type="solid" collapsible className="w-full">
+              <Accordion className="w-full">
                 <AccordionItem 
                   value={`item-${index}`} 
                   className="bg-background border border-border rounded-lg px-6 overflow-hidden transition-all hover:border-primary/20"
